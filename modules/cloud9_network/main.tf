@@ -2,7 +2,7 @@
 # Security groups
 
 resource "openstack_networking_secgroup_v2" "secgroup_allow_all_my_ip" {
-  name        = "allow-ssh-my-address"
+  name        = "allow-all-my-address"
   description = "Allow all from my Address"
 }
 
