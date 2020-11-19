@@ -1,10 +1,11 @@
 # terraform-multicloud-demo
-This is a simple terraform demo with OpenStack, AWS and Upcloud providers. This demo is provided as is and if you are using it in production you are a dummy. Also please note that this is not optimal way to use Terraform, this repository was created to demonstrate power of Terraform, not as a template for your project.
+This is a simple terraform demo with OpenStack, AWS and Upcloud providers. This demo is provided as is and if you are using it in production you are a dummy. Also please note that this is not optimal way to use Terraform, this repository was created to test power of Terraform, not as a template for your project.
 
 OpenStack provider requires following settings to be set:
 ```bash
 export OS_AUTH_URL="<Your Openstack identity/keystone url>"
 export OS_REGION_NAME="<Your region>"
+export OS_PROJECT_ID="<Your OpenStack Project ID>"
 export OS_USERNAME="<You Username>"
 export OS_PASSWORD="<Your Password>"
 export OS_USER_DOMAIN_NAME="default"
@@ -28,6 +29,7 @@ export UPCLOUD_PASSWORD="<Your password>"
 You can use Terraform from bash CLI following way:
 
 ```bash
+terraform init
 terraform plan
 terraform apply
 ```
