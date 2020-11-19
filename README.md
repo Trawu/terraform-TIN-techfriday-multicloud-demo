@@ -3,8 +3,8 @@ This is a simple terraform demo with OpenStack, AWS and Upcloud providers. This 
 
 OpenStack provider requires following settings to be set:
 ```bash
-export OS_AUTH_URL="https://identity.fi-1.nebulacloud.fi:5000/v3"
-export OS_REGION_NAME="fi-1"
+export OS_AUTH_URL="<Your Openstack identity/keystone url>"
+export OS_REGION_NAME="<Your region>"
 export OS_USERNAME="<You Username>"
 export OS_PASSWORD="<Your Password>"
 export OS_USER_DOMAIN_NAME="default"
