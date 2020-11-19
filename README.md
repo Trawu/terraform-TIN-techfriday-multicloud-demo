@@ -1,5 +1,5 @@
-# terraform-TIN-techfriday-multicloud-demo
-This is a simple terraform demo for Telia Inmics-Nebula Cloud9 (OpenStack). This demo is provided as is and if you are using it in production you are a dummy. Also please note that this is not optimal way to use Terrafrom, this repository was created to demonstrate power of Terraform, not as a template for your project.
+# terraform-multicloud-demo
+This is a simple terraform demo with OpenStack, AWS and Upcloud providers. This demo is provided as is and if you are using it in production you are a dummy. Also please note that this is not optimal way to use Terraform, this repository was created to demonstrate power of Terraform, not as a template for your project.
 
 OpenStack provider requires following settings to be set:
 ```bash
